@@ -1,0 +1,9 @@
+[submodule "modules/MMM-CalendarExt2"]
+	path = modules/MMM-CalendarExt2
+	url = https://github.com/MMM-CalendarExt2/MMM-CalendarExt2.git
+[submodule "modules/MMM-OpenWeatherForecast"]
+	path = modules/MMM-OpenWeatherForecast
+	url = https://github.com/jclarke0000/MMM-OpenWeatherForecast.git
+[submodule "modules/MMM-Wallpaper"]
+	path = modules/MMM-Wallpaper
+	url = https://github.com/kolbyjack/MMM-Wallpaper.git

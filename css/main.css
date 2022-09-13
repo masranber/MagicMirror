@@ -19,7 +19,7 @@
 }
 
 html {
-  cursor: none;
+  cursor: default;
   overflow: hidden;
   background: var(--color-background);
   user-select: none;
@@ -138,14 +138,6 @@ sup {
   margin-bottom: var(--gap-modules);
 }
 
-.module.hidden {
-  pointer-events: none;
-}
-
-.module:not(.hidden) {
-  pointer-events: auto;
-}
-
 .region.bottom .module {
   margin-top: var(--gap-modules);
   margin-bottom: 0;
@@ -176,6 +168,10 @@ sup {
   right: calc(-1 * var(--gap-body-right));
   bottom: calc(-1 * var(--gap-body-bottom));
   pointer-events: none;
+}
+
+.region.fullscreen * {
+  pointer-events: auto;
 }
 
 .region.right {
